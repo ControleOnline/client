@@ -1,0 +1,21 @@
+{
+    "name": "controleonline/client",
+    "description": "Controle Online - Client Module",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Client"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Client\\": "src/Client"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "homepage": "https://github.com/ControleOnline/client",
+    "require": {
+        "controleonline/core": "*",
+        "controleonline/user": "*"
+    }    
+}
